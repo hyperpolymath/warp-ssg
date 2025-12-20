@@ -18,6 +18,9 @@ In `warp-ssg`, site logic is decomposed into "words" pushed onto a data stack. T
 === Homoiconic Templates
 Code and data share the same representation in Factor. You can manipulate your site's generation logic *as data* during the build process for advanced self-modifying layouts.
 
+=== High-Level Stack Logic
+Combines the efficiency of **Forth** with high-level features like garbage collection and an extensive library system. It is the most flexible stack engine in the fleet.
+
 == Quick Start
 [source,oil]
 ----
@@ -29,12 +32,12 @@ just build
 ----
 
 == Features
-* **Stack-Oriented Metaprogramming** - High-level abstractions with zero overhead.
-* **Podman-First** - Consistent builds across Linux, Minix, and PC.
-* **Accessibility** - Native support for BSL, GSL, ASL, and Makaton.
+* **Stack-Oriented Metaprogramming** - High-level abstractions with minimal overhead.
+* **Podman-First** - Consistent builds across **Linux**, **Minix**, and **PC**.
+* **Accessibility** - Native metadata for **BSL**, **GSL**, and **Makaton**.
 
 == Requirements
-* **Factor (latest stable)**
+* **Factor (0.99 or later)**
 * **Just** (Orchestrator)
 
 == Part of poly-ssg
